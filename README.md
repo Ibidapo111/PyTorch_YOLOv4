@@ -68,7 +68,7 @@ This is PyTorch implementation of [YOLOv4](https://github.com/AlexeyAB/darknet) 
 * `2020-07-31` - support [ResNet](https://arxiv.org/abs/1512.03385), [ResNeXt](https://arxiv.org/abs/1611.05431), [CSPResNet](https://github.com/WongKinYiu/CrossStagePartialNetworks), [CSPResNeXt](https://github.com/WongKinYiu/CrossStagePartialNetworks). [`r50-pacsp`]() [`x50-pacsp`]() [`cspr50-pacsp`]() [`cspx50-pacsp`]()
 * `2020-07-28` - support [SAM](https://arxiv.org/abs/2004.10934). [`yolov4-pacsp-sam`]()
 * `2020-07-24` - update api.
-* `2020-07-23` - support CUDA accelerated Mish activation function.
+* `2020-07-23` - support CUDA accelerated Mish activation function
 * `2020-07-19` - support and training tiny YOLOv4. [`yolov4-tiny`]()
 * `2020-07-15` - design and training conditional YOLOv4. [`yolov4-pacsp-conditional`]()
 * `2020-07-13` - support [MixUp](https://arxiv.org/abs/1710.09412) data augmentation.
@@ -198,10 +198,7 @@ python test.py --img 640 --conf 0.001 --batch 8 --device 0 --data coco.yaml --cf
   author={Bochkovskiy, Alexey and Wang, Chien-Yao and Liao, Hong-Yuan Mark},
   journal={arXiv preprint arXiv:2004.10934},
   year={2020}
-}
-```
 
-```
 @inproceedings{wang2020cspnet,
   title={{CSPNet}: A New Backbone That Can Enhance Learning Capability of {CNN}},
   author={Wang, Chien-Yao and Mark Liao, Hong-Yuan and Wu, Yueh-Hua and Chen, Ping-Yang and Hsieh, Jun-Wei and Yeh, I-Hau},
