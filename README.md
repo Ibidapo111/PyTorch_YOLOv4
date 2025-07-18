@@ -192,7 +192,6 @@ python test.py --img 640 --conf 0.001 --batch 8 --device 0 --data coco.yaml --cf
 
 ## Citation
 
-```
 @article{bochkovskiy2020yolov4,
   title={{YOLOv4}: Optimal Speed and Accuracy of Object Detection},
   author={Bochkovskiy, Alexey and Wang, Chien-Yao and Liao, Hong-Yuan Mark},
